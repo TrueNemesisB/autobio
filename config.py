@@ -20,25 +20,25 @@ MODULES = {
     #'blocked': BlockedCount(),
 
     # Number of channel or group members
-    'members': MembersCount('androidsmsbomber'),
+    'members': MembersCount(''),
 
     # About of the entity
-    #'about': EntityInfo('wavecat'),
+    #'about': EntityInfo('True_Alexey'),
 
     # BrawlStars Trophies by tag
-    #'trophies': BrawlStarsTrophies('9PG9RCUVY', BRAWLSTARS_TOKEN),
+    #'trophies': BrawlStarsTrophies('', BRAWLSTARS_TOKEN),
 
     # Iterates strings
-    'first_name': Cycle('wavecat', 'retrocat'),
+    'first_name': Cycle('АлексейВеликий', 'ņиʞиvǝʚņǝɔʞǝvɐ'),
 
     # LastFM now playing
     #'music': LastFm(LASTFM_KEY, LASTFM_USERNAME, 'nothing is playing now')
 }
 
-INTERVAL = 60
+INTERVAL = 30
 
 TEMPLATES = {
-    'about': '⌛: $time 💣: @androidsmsbomber ($members) 🔗: @CTRLIntelligence',
+    'about': '⌛: $time$time$time$time$time',
     'first_name': '$first_name',
     'last_name': None
 }
